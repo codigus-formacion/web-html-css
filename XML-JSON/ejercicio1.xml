@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<curriculum_vitae>
+    <personal_information>
+        <name>Óscar Soto Sánchez</name>
+        <address>Calle de la Piruleta, 42, 1ºD, Móstoles</address>
+        <phone>666 654 257</phone>
+        <email>oscar.soto@urjc.es</email>
+        <date_of_birth>15/10/1992</date_of_birth>
+        <nationality>Española</nationality>
+    </personal_information>
+
+    <jobs>
+        <job>
+            <position>Profesor Universitario</position>
+            <company>Universidad Rey Juan Carlos</company>
+            <start_date>2019-04</start_date>
+            <end_date>Actualidad</end_date>
+            <description>
+                Profesor en asignaturas de computación en la nube y desarrollo web.
+            </description>
+        </job>
+        <job>
+            <position>Desarrollador Junior</position>
+            <company>Web Innovators</company>
+            <start_date>2016-01</start_date>
+            <end_date>2019-03</end_date>
+            <description>
+                Desarrollo y mantenimiento de sitios web de comercio electrónico utilizando HTML,
+                CSS, JavaScript y PHP.
+            </description>
+        </job>
+    </jobs>
+
+    <educations>
+        <education>
+            <degree>Grado en Ingeniería del Software</degree>
+            <institution>Universidad Rey Juan Carlos</institution>
+            <start_date>2015-09</start_date>
+            <end_date>2019-06</end_date>
+        </education>
+        <education>
+            <degree>Máster en Ingeniería del Software</degree>
+            <institution>Universidad Rey Juan Carlos</institution>
+            <start_date>2019-09</start_date>
+            <end_date>2021-06</end_date>
+        </education>
+    </educations>
+
+    <skills>
+        <skill>HTML5</skill>
+        <skill>CSS3</skill>
+        <skill>JavaScript</skill>
+        <skill>Angular</skill>
+        <skill>Node.js</skill>
+        <skill>Java</skill>
+    </skills>
+
+    <languages>
+        <language>
+            <name>Español</name>
+            <level>Nativo</level>
+        </language>
+        <language>
+            <name>Inglés</name>
+            <level>Intermedio</level>
+        </language>
+    </languages>
+</curriculum_vitae>

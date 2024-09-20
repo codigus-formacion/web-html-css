@@ -1,0 +1,53 @@
+{
+  "curriculum_vitae": {
+    "personal_information": {
+      "name": "Óscar Soto Sánchez",
+      "address": "Calle de la Piruleta, 42, 1ºD, Móstoles",
+      "phone": "666 654 257",
+      "email": "oscar.soto@urjc.es",
+      "date_of_birth": "15/10/1992",
+      "nationality": "Española"
+    },
+    "jobs": [
+      {
+        "position": "Profesor Universitario",
+        "company": "Universidad Rey Juan Carlos",
+        "start_date": "2019-04",
+        "end_date": "Actualidad",
+        "description": "Profesor en asignaturas de computación en la nube y desarrollo web."
+      },
+      {
+        "position": "Desarrollador Junior",
+        "company": "Web Innovators",
+        "start_date": "2016-01",
+        "end_date": "2019-03",
+        "description": "Desarrollo y mantenimiento de sitios web de comercio electrónico utilizando HTML, CSS, JavaScript y PHP."
+      }
+    ],
+    "educations": [
+      {
+        "degree": "Grado en Ingeniería del Software",
+        "institution": "Universidad Rey Juan Carlos",
+        "start_date": "2015-09",
+        "end_date": "2019-06"
+      },
+      {
+        "degree": "Máster en Ingeniería del Software",
+        "institution": "Universidad Rey Juan Carlos",
+        "start_date": "2019-09",
+        "end_date": "2021-06"
+      }
+    ],
+    "skills": ["HTML5", "CSS3", "JavaScript", "Angular", "Node.js", "Java"],
+    "languages": [
+      {
+        "name": "Español",
+        "level": "Nativo"
+      },
+      {
+        "name": "Inglés",
+        "level": "Intermedio"
+      }
+    ]
+  }
+}
