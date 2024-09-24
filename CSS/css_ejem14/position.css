@@ -1,15 +1,20 @@
-.grid {
-   display: grid;
-   grid-template-columns: 50px 300px;
-   grid-template-rows: 200px 75px;
+.container {
+    display: flex;
+    align-items: flex-end;
+    background: steelblue;
+    width: 100px;
 }
 
-.item{ color: white;}
+.item {
+    background: grey;
+    min-height: 20px;
+    min-width: 20px;
+    border: 1px solid black;
+    text-align: center;
+}
 
-.a { background: blue }
+.item:nth-child(1) { min-height: 30px; }
 
-.b { background: red }
+.item:nth-child(3) { min-height: 25px; }
 
-.c { background: green }
-
-.d { background: orange }
+.item:nth-child(5) { min-height: 40px; height: 40px;}

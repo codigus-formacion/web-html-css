@@ -1,29 +1,15 @@
 .grid {
    display: grid;
-   grid-template-columns: 1fr 1fr 1fr;
-   grid-template-rows: 1fr 1fr 1fr;
+   grid-template-columns: 100px repeat(2, 50px) 200px;
+   grid-template-rows: repeat(2, 50px 100px);
 }
 
-.header {
-   background: darkred;
-   grid-column-start: 1;
-   grid-column-end: 4;
-}
+.item{ color: white;}
 
-.sidebar {
-   background: black;
-   grid-row: 2 / 3;
-   color: white;
-}
+.a { background: blue }
 
-.content {
-   background: orange;
-   grid-column: 2 / 4;
-   grid-row: 2 / 3;
-}
+.b { background: red }
 
-.footer {
-   background: green;
-   grid-column: 1 / 4;
-   grid-row: 3;
-}
+.c { background: green }
+
+.d { background: orange }

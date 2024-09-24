@@ -1,8 +1,8 @@
 .container {
     display: flex;
-    justify-content: flex-start;
+    flex-wrap: wrap;
     background: steelblue;
-    width: 300px;
+    width: 100px;
 }
 
 .item {

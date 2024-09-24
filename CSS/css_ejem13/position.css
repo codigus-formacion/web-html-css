@@ -1,20 +1,14 @@
 .container {
     display: flex;
-    align-items: flex-end;
+    justify-content: flex-start;
     background: steelblue;
-    width: 100px;
+    width: 300px;
 }
 
 .item {
     background: grey;
-    min-height: 20px;
-    min-width: 20px;
+    min-height: 30px;
+    min-width: 30px;
     border: 1px solid black;
     text-align: center;
 }
-
-.item:nth-child(1) { min-height: 30px; }
-
-.item:nth-child(3) { min-height: 25px; }
-
-.item:nth-child(5) { min-height: 40px; height: 40px;}

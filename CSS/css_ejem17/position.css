@@ -1,14 +1,29 @@
 .grid {
    display: grid;
-   grid-template-areas: "head head"
-                        "menu main"
-                        "foot foot";
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-template-rows: 1fr 1fr 1fr;
 }
 
-.a { grid-area: head; background: blue }
+.header {
+   background: darkred;
+   grid-column-start: 1;
+   grid-column-end: 4;
+}
 
-.b { grid-area: menu; background: red }
+.sidebar {
+   background: black;
+   grid-row: 2 / 3;
+   color: white;
+}
 
-.c { grid-area: main; background: green }
+.content {
+   background: orange;
+   grid-column: 2 / 4;
+   grid-row: 2 / 3;
+}
 
-.d { grid-area: foot; background: orange }
+.footer {
+   background: green;
+   grid-column: 1 / 4;
+   grid-row: 3;
+}
